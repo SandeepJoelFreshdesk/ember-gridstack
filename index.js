@@ -36,13 +36,13 @@ module.exports = {
     //
 
     // Gridstack
-    [ 'gridstack', 'gridstack.jQueryUI' ].forEach(function(module) {
-      app.import({
-        development: 'node_modules/gridstack/dist/'+ module +'.js',
-        production:  'node_modules/gridstack/dist/'+ module +'.min.js'
-      });
-    })
-    app.import('node_modules/gridstack/dist/gridstack.css');
+    // [ 'gridstack', 'gridstack.jQueryUI' ].forEach(function(module) {
+    //   app.import({
+    //     development: 'node_modules/gridstack/dist/'+ module +'.js',
+    //     production:  'node_modules/gridstack/dist/'+ module +'.min.js'
+    //   });
+    // })
+    // app.import('node_modules/gridstack/dist/gridstack.css');
 
   },
 
